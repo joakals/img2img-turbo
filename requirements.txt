@@ -27,3 +27,5 @@ diffusers==0.25.1
 gradio==3.43.1
 
 vision_aided_loss
+
+wandb
