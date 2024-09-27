@@ -2,7 +2,7 @@
 
 export NCCL_P2P_DISABLE=1
 
-accelerate launch --main_process_port 29501 --config_file accelerate_configs/config_8gpu_12GB.sh \
+accelerate launch --main_process_port 29501 --config_file accelerate_configs/config_1gpu_24GB.sh \
     src/train_cyclegan_turbo.py \
     --pretrained_model_name_or_path="stabilityai/sd-turbo" \
     --output_dir="output/cyclegan_turbo/my_horse2zebra" \
